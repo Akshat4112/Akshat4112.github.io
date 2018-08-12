@@ -1,0 +1,20 @@
+/*
+Theme Name: VResume WP
+Theme URI: http://themeforest.net/user/bitpub/portfolio
+Description: Versus Resume showcases you in a modern way. From education to experience, you have everything you need!
+Author: Bitpub
+Author URI: http://themeforest.net/user/bitpub
+Version: 2.4.1
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: vresume-wp
+
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/ 
+
+/* Theme css files */
+
+@import url('layout/css/base.css');
+@import url('layout/css/grid.css');
+@import url('layout/css/elements.css');
+@import url('layout/css/layout.css');
