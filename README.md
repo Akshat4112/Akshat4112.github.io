@@ -1,3 +1,12 @@
-# Akshat4112.github.io
+### Personal Website
 
-## E-CV Website hoted on github by Akhsat Gupta
+* [Home](https://akshat4112.github.io/index.html)
+* Projects
+* Certifications
+* Talks
+* Github
+* Hackerrank
+* CV
+* Kaggle
+* Linkedin
+* Email
