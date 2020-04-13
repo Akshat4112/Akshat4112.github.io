@@ -11,7 +11,19 @@
 
   gtag('config', 'UA-70365917-4');
 </script>
+<style>
+body {
+  padding: 0px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Akshat Gupta</title>
@@ -20,6 +32,7 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -79,7 +92,7 @@
 		<div class="container" style="margin-top: -60px;">
 			<div class="row">
 				<div class="col-md-3">
-					<img src="images/akshat_gupta.jpg" height="250" width="250"><br><br>
+					<img src="images/akshat_gupta.jpg" class="rounded float-left" height="250" width="250"><br><br>
 							<a style="margin-left: 55px;" href="mailto: akshat41121995@gmail.com"><i class="fa fa-mail"></i></a>
 							<a href="https://www.linkedin.com/in/akshat-rg/"><i class="fa fa-linkedin"></i></a>
 							<a href="https://github.com/akshat4112"><i class="fa fa-github"></i></a>
@@ -90,7 +103,7 @@
 
 				<div class="col-md-9 animate-box">
 					<p>
-						<b>Mission: </b>My mission is to get education and healthcare available to everyone so they can do the same.		
+						<b>Mission: </b>My mission is to get education and healthcare available to every single person on earth.		
 					</p>
 					<p><b>About: </b>Hi, I'm Akshat, thanks for taking time out and checking my website. I'm a Machine Learning Engineer, with an insatiable intellectual curiosity, and the ability to mine hidden gems located within a large set of data through data analysis, followed by feature engineering and then training model and putting it in production followed by deployment on <a href="https://aws.amazon.com/">AWS</a> or <a href="https://cloud.google.com/">GCP</a>.</p> 
 						<p>As a machine-learning engineer, I enjoy bridging the gap between machine and intelligence, combining my technical knowledge over real-life problems to create an intelligent product. My goal is to always build products that are intelligent and efficient under the hood while providing engaging, analytical, and result oriented user experiences.</p>
@@ -102,13 +115,15 @@
 				<div class="col-md-12">
 					<!-- <h2>Education</h2> -->
 					<p>
-
+					
 					</p>
 				</div>
 			</div>
+			
 		</div>
+		<button onclick="myFunction()" class="btn btn-primary" style="position: absolute; margin-top:13%; margin-left: 1%;">Dark Mode</button>
 	</div>
-	<footer id="fh5co-footer" style="margin-top: 1px;">
+	<!-- <footer id="fh5co-footer" style="margin-top: 1px;">
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
@@ -123,7 +138,7 @@
 				</div>
 			</div>
 	</div>
-	</footer>
+	</footer> -->
 </div>
 	
 	
@@ -137,6 +152,12 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
+	<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
